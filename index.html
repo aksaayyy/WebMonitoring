@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Professional website monitoring service for freelancers and agencies. Get instant Telegram & Email alerts for downtime, SSL expiry, and domain expiration.">
+  <meta name="keywords"
+    content="website monitoring, uptime monitoring, SSL certificate, domain expiry, telegram alerts">
+  <title>WebMonitor Pro - Never Miss a Website Outage Again</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Animated Beam Background -->
+  <div class="beam-container">
+    <!-- Vertical beams -->
+    <div class="beam"></div>
+    <div class="beam"></div>
+    <div class="beam"></div>
+    <div class="beam"></div>
+    <div class="beam"></div>
+    <div class="beam"></div>
+    <div class="beam"></div>
+    <!-- Horizontal beams -->
+    <div class="beam-horizontal"></div>
+    <div class="beam-horizontal"></div>
+    <div class="beam-horizontal"></div>
+    <div class="beam-horizontal"></div>
+    <!-- Glowing orbs -->
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- Grid Pattern Overlay -->
+  <div class="grid-pattern"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <span class="logo-icon">📡</span>
+        <span>WebMonitor<span class="gradient-text">Pro</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#alerts" class="nav-link">Alerts</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
+      </div>
+      <div class="mobile-menu-btn" id="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobile-nav">
+    <span class="mobile-nav-close" id="mobile-nav-close">&times;</span>
+    <a href="#features" class="mobile-nav-link">Features</a>
+    <a href="#how-it-works" class="mobile-nav-link">How It Works</a>
+    <a href="#alerts" class="mobile-nav-link">Alerts</a>
+    <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+    <a href="#contact" class="btn btn-primary">Get Started</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="section-badge hero-badge">
+          <span class="status-dot"></span>
+          Monitoring in Real-Time
+        </div>
+        <h1 class="hero-title">
+          Never Miss a<br>
+          <span class="gradient-text">Website Outage</span> Again
+        </h1>
+        <p class="hero-description">
+          Simple, reliable website monitoring for freelancers and agencies.
+          Get instant Telegram & Email alerts when your sites go down, SSL expires,
+          or domains need renewal.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">
+            <span>🚀</span>
+            Start Monitoring Now
+          </a>
+          <a href="#features" class="btn btn-secondary">
+            <span>📋</span>
+            View Features
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">99.9%</div>
+            <div class="stat-label">Uptime Detection</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">&lt;30s</div>
+            <div class="stat-label">Alert Speed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Monitoring</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating monitor cards -->
+      <div class="hero-visual">
+        <div class="monitor-card monitor-card-1">
+          <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span>example.com</span>
+          </div>
+          <div style="color: var(--accent-secondary); font-size: 0.85rem; margin-top: 8px;">
+            ✓ 42ms response
+          </div>
+        </div>
+        <div class="monitor-card monitor-card-2">
+          <div style="color: var(--text-muted); font-size: 0.8rem;">SSL Certificate</div>
+          <div style="color: var(--accent-secondary); font-weight: 600; margin-top: 4px;">
+            ✓ Valid for 89 days
+          </div>
+        </div>
+        <div class="monitor-card monitor-card-3">
+          <div style="font-size: 0.9rem; margin-bottom: 8px;">📬 Alert Sent</div>
+          <div style="color: var(--accent-primary); font-size: 0.85rem;">
+            via Telegram
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features-header scroll-reveal">
+        <div class="section-badge">
+          <span>✨</span>
+          Powerful Features
+        </div>
+        <h2 class="section-title">Everything You Need to<br><span class="gradient-text">Stay Online</span></h2>
+        <p class="section-subtitle">
+          Comprehensive monitoring tools designed for freelancers and agencies who can't afford downtime.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1: Uptime Monitoring -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Uptime Monitoring</h3>
+          <p class="feature-description">
+            HTTP status checks with precise response time tracking. Know instantly when your sites go down with
+            sub-minute detection.
+          </p>
+        </div>
+
+        <!-- Feature 2: SSL Certificate Expiry -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">🔒</div>
+          <h3 class="feature-title">SSL Certificate Expiry</h3>
+          <p class="feature-description">
+            Get proactive alerts at 15, 7, and 3 days before your SSL certificates expire. Never lose customer trust due
+            to certificate errors.
+          </p>
+        </div>
+
+        <!-- Feature 3: Domain Expiry -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">🌐</div>
+          <h3 class="feature-title">Domain Expiry Alerts</h3>
+          <p class="feature-description">
+            WHOIS-based domain expiration monitoring. Get notified 30 days in advance so you never accidentally lose a
+            domain.
+          </p>
+        </div>
+
+        <!-- Feature 4: Smart Alerting -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">🔔</div>
+          <h3 class="feature-title">Smart Alerting</h3>
+          <p class="feature-description">
+            No spam alerts! Intelligent consecutive failure detection and cooldown periods ensure you only get notified
+            when it matters.
+          </p>
+        </div>
+
+        <!-- Feature 5: Telegram & Email -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">📱</div>
+          <h3 class="feature-title">Telegram & Email</h3>
+          <p class="feature-description">
+            Get lightning-fast alerts via Telegram or traditional email. Choose your preferred channel or use both for
+            redundancy.
+          </p>
+        </div>
+
+        <!-- Feature 6: Failure Handling -->
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">🛡️</div>
+          <h3 class="feature-title">Robust Failure Handling</h3>
+          <p class="feature-description">
+            Global failure detection with per-site error isolation. One problematic site won't affect monitoring of
+            others.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="how-it-works-header scroll-reveal">
+        <div class="section-badge">
+          <span>🎯</span>
+          Simple Setup
+        </div>
+        <h2 class="section-title">Get Started in <span class="gradient-text">3 Easy Steps</span></h2>
+        <p class="section-subtitle">
+          From zero to fully monitored in under 5 minutes. No complex configuration required.
+        </p>
+      </div>
+
+      <div class="steps-container scroll-reveal">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Configure Sites</h3>
+          <p class="step-description">
+            Add your websites to the simple JSON config file. Set check intervals and monitoring options.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Connect Alerts</h3>
+          <p class="step-description">
+            Add your Telegram bot token or email credentials. Takes just 2 minutes to set up.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Start Monitoring</h3>
+          <p class="step-description">
+            Run the script and relax. You'll get instant alerts when anything needs attention.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Alerts Section -->
+  <section class="alerts-section" id="alerts">
+    <div class="container">
+      <div class="alerts-header scroll-reveal">
+        <div class="section-badge">
+          <span>🔔</span>
+          Smart Alerts
+        </div>
+        <h2 class="section-title">Intelligent <span class="gradient-text">Alert System</span></h2>
+        <p class="section-subtitle">
+          Get notified when it matters, without the noise. Our smart alert system prevents alert fatigue.
+        </p>
+      </div>
+
+      <div class="alerts-table-wrapper scroll-reveal">
+        <table class="alerts-table">
+          <thead>
+            <tr>
+              <th>Alert Type</th>
+              <th>Trigger Condition</th>
+              <th>Cooldown Period</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="alert-type">
+                  <span class="alert-emoji">🔴</span>
+                  <span>Site DOWN</span>
+                </span>
+              </td>
+              <td>2 consecutive failures</td>
+              <td>30 minutes</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="alert-type">
+                  <span class="alert-emoji">🟢</span>
+                  <span>Site RECOVERED</span>
+                </span>
+              </td>
+              <td>After DOWN alert</td>
+              <td>5 minutes</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="alert-type">
+                  <span class="alert-emoji">⚠️</span>
+                  <span>SSL Expiry Warning</span>
+                </span>
+              </td>
+              <td>≤15 days remaining</td>
+              <td>Daily</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="alert-type">
+                  <span class="alert-emoji">⚠️</span>
+                  <span>Domain Expiry Warning</span>
+                </span>
+              </td>
+              <td>≤30 days remaining</td>
+              <td>Weekly</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="alert-type">
+                  <span class="alert-emoji">🐌</span>
+                  <span>Slow Response</span>
+                </span>
+              </td>
+              <td>>3 seconds response time</td>
+              <td>Hourly</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing/CTA Section -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="pricing-card scroll-reveal">
+        <div class="pricing-badge">💎 Premium Solution</div>
+        <h2 class="pricing-title">Tailored for Your Needs</h2>
+        <p class="pricing-description">
+          Get a monitoring solution customized to your specific requirements.
+          Perfect for agencies managing multiple client sites.
+        </p>
+
+        <div class="pricing-features">
+          <div class="pricing-feature">
+            <span class="pricing-feature-check">✓</span>
+            <span>Unlimited website monitoring</span>
+          </div>
+          <div class="pricing-feature">
+            <span class="pricing-feature-check">✓</span>
+            <span>SSL & Domain expiry alerts</span>
+          </div>
+          <div class="pricing-feature">
+            <span class="pricing-feature-check">✓</span>
+            <span>Telegram & Email notifications</span>
+          </div>
+          <div class="pricing-feature">
+            <span class="pricing-feature-check">✓</span>
+            <span>Custom check intervals</span>
+          </div>
+          <div class="pricing-feature">
+            <span class="pricing-feature-check">✓</span>
+            <span>Easy Windows Task Scheduler integration</span>
+          </div>
+          <div class="pricing-feature">
+            <span class="pricing-feature-check">✓</span>
+            <span>Full setup & configuration support</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-primary" style="width: 100%;">
+          <span>📧</span>
+          Contact for Custom Quote
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header scroll-reveal">
+        <div class="section-badge">
+          <span>💬</span>
+          Testimonials
+        </div>
+        <h2 class="section-title">Loved by <span class="gradient-text">Professionals</span></h2>
+        <p class="section-subtitle">
+          See what freelancers and agencies are saying about our monitoring solution.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card scroll-reveal">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            Finally, a monitoring tool that doesn't spam me with false alerts! The smart alerting system is a
+            game-changer. I only get notified when there's a real problem.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JD</div>
+            <div class="author-info">
+              <div class="author-name">James Davidson</div>
+              <div class="author-role">Freelance Web Developer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card scroll-reveal">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            Managing 30+ client sites used to be a nightmare. Now I get instant Telegram alerts and can respond before
+            clients even notice issues. Absolute lifesaver!
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div class="author-info">
+              <div class="author-name">Sarah Mitchell</div>
+              <div class="author-role">Digital Agency Owner</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card scroll-reveal">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">
+            The SSL and domain expiry alerts have saved me multiple times. No more embarrassing "your site isn't secure"
+            warnings for my clients!
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div class="author-info">
+              <div class="author-name">Mike Rodriguez</div>
+              <div class="author-role">WordPress Developer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper scroll-reveal">
+        <div class="contact-icon">📬</div>
+        <h2 class="contact-title">Ready to <span class="gradient-text">Get Started?</span></h2>
+        <p class="contact-description">
+          Stop worrying about website downtime. Get in touch today and let's set up your monitoring solution.
+        </p>
+        <a href="mailto:chikki3435@gmail.com" class="contact-email">
+          <span>✉️</span>
+          chikki3435@gmail.com
+        </a>
+        <div>
+          <a href="mailto:chikki3435@gmail.com?subject=Website%20Monitoring%20Inquiry&body=Hi%2C%0A%0AI'm%20interested%20in%20your%20website%20monitoring%20service.%0A%0ANumber%20of%20websites%20I%20need%20to%20monitor%3A%20%0A%0ABest%20regards"
+            class="btn btn-primary">
+            <span>🚀</span>
+            Contact Me Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <span>📡</span>
+        <span>WebMonitor<span class="gradient-text">Pro</span></span>
+      </div>
+      <p class="footer-text">
+        © 2024 WebMonitorPro. Free for personal and commercial use.
+      </p>
+      <div class="footer-links">
+        <a href="#features" class="footer-link">Features</a>
+        <a href="#contact" class="footer-link">Contact</a>
+        <a href="mailto:chikki3435@gmail.com" class="footer-link">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
